@@ -115,14 +115,21 @@ The notebook demonstrates practical applications of data cleaning, exploratory a
 ```
 India-Air-Quality-Analysis/
 │
-├── India_Air_Quality_Analysis.ipynb
-├── Data.csv
-├── NCAP_Funding.csv
-├── State_data.csv
-├── README.md
-├── requirements.txt
-├── LICENSE
-└── .gitignore
+├── India_Air_Quality_Analysis.ipynb      # Main analysis notebook
+│
+├── README.md                             # Project documentation
+├── requirements.txt                      # Python dependencies
+├── LICENSE                               # MIT License
+├── .gitignore                            # Git ignore rules
+│
+├── data/
+│   ├── NCAP_Funding.csv                  # NCAP funding dataset
+│   ├── State_data.csv                    # State demographics
+│   └── README.md                         # Information about the datasets
+│
+└── images/
+    ├── state_pm25_ranking.png            # State-wise PM2.5 ranking
+    └── delhi_heatmap.png                 # Delhi monthly PM2.5 heatmap
 ```
 
 ---
